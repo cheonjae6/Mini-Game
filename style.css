@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Kirang+Haerang&family=Rubik+Wet+Paint&display=swap');
+
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+footer p {
+    font-family: 'Jua';
+    text-align: center;
+    color: #ffffff;
+}
+
+.games p {
+    font-family: 'Rubik Wet Paint', cursive;
+    text-align: center;
+}
+body > header > h1 {
+    font-size: 60px;
+    font-family: 'Rubik Wet Paint', cursive;
+    color: #ffffff;
+    text-align: center;
+}
+
+#firevoid:hover, #guess_Game:hover, #Finding_mine:hover, #Dice_game:hover, #Aim_practing:hover {
+    box-shadow: 0px 0px 30px black;
+}
+
+#gamesContainer, #developersContainer {
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#gamesContainer {
+    background-color: aliceblue;
+}
+
+#developersContainer {
+    background-color: antiquewhite;
+}
+#gamesContainer h1, #developersContainer h1 {
+    font-family: 'Rubik Wet Paint', cursive;
+    margin-left: 24px;
+    width: 100%;
+}
+
+#developersContainer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+#gamesContainer img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#developersContainer p {
+    font-family: 'Jua', cursive;
+    text-align: center;
+    width: 150px;
+}
+
+.games {
+    margin: 24px;           
+    border-radius: 10px;
+}
+.games img:hover {
+    box-shadow: 0px 0px 30px 2px black;
+    border-radius: 10px;
+}
+.developerProfileImage {
+    margin: 24px;
+}
+
