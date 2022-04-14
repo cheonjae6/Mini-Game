@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&family=Kirang+Haerang&family=Rubik+Wet+Paint&display=swap');
 
-body { margin: 0px; }
+@font-face {
+    font-family: "Maplestory";
+    src: url('./MaplestoryFont_TTF/Maplestory\ Bold.ttf');
+}
+
+body { margin: 0px; font-family: "Maplestory"; max-height: 1600px; height: 100%; }
 
 header {
     top: 0;
     position: fixed;
+    max-width: 5120px;
     width: 100%;
     background-color: black;
     z-index: 10;
@@ -21,25 +27,22 @@ footer {
 }
 
 footer p {
-    font-family: 'Jua';
     text-align: center;
     color: #ffffff;
 }
 
 .games p {
-    font-family: 'Rubik Wet Paint', cursive;
     text-align: center;
 }
 body > header > h1 {
     font-size: 60px;
-    font-family: 'Rubik Wet Paint', cursive;
     color: #ffffff;
     text-align: center;
 }
 
 #gamesContainer, #developersContainer {
     display: flex;
-    /* max-width: 1600px; */
+    max-width: 5120px;
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -52,10 +55,10 @@ body > header > h1 {
 
 #developersContainer {
     background-color: antiquewhite;
+    height: auto;
     margin-bottom: 50px;
 }
 #gamesContainer h1, #developersContainer h1 {
-    font-family: 'Rubik Wet Paint', cursive;
     margin-left: 24px;
     width: 100%;
 }
@@ -68,7 +71,6 @@ body > header > h1 {
 }
 
 #developersContainer p {
-    font-family: 'Jua', cursive;
     text-align: center;
     margin-left: 24px;
     width: 150px;
