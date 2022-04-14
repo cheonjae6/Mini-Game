@@ -43,6 +43,7 @@ body > header > h1 {
 #gamesContainer, #developersContainer {
     display: flex;
     max-width: 5120px;
+    max-height: 10000px;
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -55,7 +56,7 @@ body > header > h1 {
 
 #developersContainer {
     background-color: antiquewhite;
-    height: auto;
+    /* height: auto; */
     margin-bottom: 50px;
 }
 #gamesContainer h1, #developersContainer h1 {
