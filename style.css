@@ -67,8 +67,6 @@ body > header > h1 {
     background-color: aliceblue;
 }
 
-/* #developersContainer {
-} */
 #gamesContainer h1, #developersContainer h1 {
     margin-left: 24px;
     width: 100%;
@@ -155,32 +153,3 @@ body > header > h1 {
 .games > a:hover .top { bottom: 52%; }
 
 .games > a:hover .bottom{ top: 52%; }
-
-/* @media (max-height: 1800px) {
-    main {
-        margin-bottom: 20%;
-    }
-}
-
-@media (max-height: 1500px) {
-    main {
-        margin-bottom: 5%;
-    }
-} */
-/* @media and (max-width: 700px) and (max-height: 700px) {
-    main {
-        margin-bottom: 0%;
-    }
-}
-
-@media and (max-width: 1000px) and (max-height: 700px) {
-    main {
-        margin-bottom: 20%;
-    }
-}
-
-@media and (max-width: 1500px) and (max-height: 700px) {
-    main {
-        margin-bottom: 30%;
-    }
-} */
