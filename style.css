@@ -7,7 +7,6 @@
 
 body { 
     margin: 0px; 
-    background-color: ;
     font-family: "Maplestory"; 
     max-height: 2880px;
     max-width: 5120px;
@@ -27,7 +26,7 @@ header {
 
 main { 
     margin-top: 140px; 
-    /* margin-bottom: 48px; */
+    margin-bottom: 48px;
 }
 
 footer {
@@ -87,7 +86,6 @@ body > header > h1 {
 
 .games {
     margin: 24px;           
-    border-radius: 10px;
 }
 
 .games img {
@@ -153,3 +151,19 @@ body > header > h1 {
 .games > a:hover .top { bottom: 52%; }
 
 .games > a:hover .bottom{ top: 52%; }
+
+@media all and (max-height: 1600px) {
+    main {
+        margin-bottom: 48px;
+    }
+    .developerProfileImage img {
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+    }
+    #developersContainer p {
+        text-align: center;
+        margin-left: 24px;
+        width: 150px;
+    }
+}
